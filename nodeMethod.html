@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Property</title>
+</head>
+<body>
+
+    <ul id="menu"> menu
+        <li id="frist">mie babi</li>
+        <ul id="second"> nasi goreng
+            <li id="second1">nasi goreng anjing</li>
+            <li id="second2">nasi goreng babi</li>
+            <li id="second3">nasi goreng uler</li>
+        </ul>
+        <li id="third">rendang uler</li>
+    </ul>
+    <script>
+        const menu = document.getElementById("menu")
+        menu.removeChild(document.getElementById("frist"))
+        menu.removeChild(document.getElementById("second"))
+        console.info(menu)
+
+
+        // const second = document.getElementById("second")
+        // console.info(second)
+      
+    </script>
+    
+</body>
+</html>

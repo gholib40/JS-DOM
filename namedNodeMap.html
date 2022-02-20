@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Named Node Map</title>
+</head>
+<body>
+    <img id="logo" src="https://cdn.idntimes.com/content-images/post/20190707/sketch-eefbc3b7cd1c66da013e1f779b45f2e9_600x400.jpg" alt="Bunga Gele">
+
+    <script>
+        const logo = document.getElementById("logo")
+        const attributes = logo.attributes
+
+        for (const iterator of attributes) {
+            console.info(iterator)
+        }
+    </script>
+    
+</body>
+</html>

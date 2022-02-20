@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node List</title>
+</head>
+<body>
+    <ul id="menu">
+        <li id="frist">frist</li>
+        <li id="second">second</li>
+        <li id="third">third</li>
+        </ul>
+
+    <ul id="menu2">
+        <li id="frist2">frist</li>
+        <li id="second2">second</li>
+        <li id="third2">third</li>
+    </ul>
+
+    <script>
+        const topMenu = document.querySelector("li")
+        console.info(topMenu)
+
+        const menu = document.getElementById("menu").childNodes
+        console.info(menu)
+
+        const menu2 = document.getElementById("menu2").childNodes
+        console.info(menu2)
+    </script>
+    
+</body>
+</html>
